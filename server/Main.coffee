@@ -120,4 +120,4 @@ g.db.initialize (err) ->
     g.stats = new Statistics(g.db)
     setInterval gcPlayers, 60000
     app.listen(g.options.port)
-    console.log 'Server started.'
+    console.log 'Server started. Time to get sly!'
